@@ -1,10 +1,10 @@
 # Paddy-Disease-Classification-Using-Deep-Learning
 
-Paddy, an unhusked form of rice, is prone to several diseases sometimes, leading to a loss of 70% of yield. Manual supervision of paddy diseases is a costly and time-consuming process. So a reliable method that saves farmers time and money is highly demanded. With the advancement of deep learning and computer vision, we implemented a multiclass classification technique to classify the given paddy leaf into ten classes out of 9 disease classes and one regular class, the nine disease classes, are bacterial leaf blight, bacterial leaf streak, bacterial pinnacle blight, blast, brown spot, dead Heart, downy Mildew, hispa, and tungro. We developed six distinct deep learning models to address this issue, one of which, Vision Transformers, performed excellently and attained a validation accuracy of 91.30%.
+Paddy, an unhusked form of rice, is prone to several diseases sometimes, leading to a loss of 70% of yield. Manual supervision of paddy diseases is a costly and time-consuming process. So a reliable method that saves farmers time and money is highly demanded. With the advancement of deep learning and computer vision, we implemented a multiclass classification technique to classify the given paddy leaf into ten classes out of 9 disease classes and one regular class, the nine disease classes, are bacterial leaf blight, bacterial leaf streak, bacterial pinnacle blight, blast, brown spot, dead Heart, downy Mildew, hispa, and tungro. We developed four distinct deep learning models to address this issue, one of which, Vision Transformers, performed excellently and attained a validation accuracy of 91.30%.
 
 # INTRODUCTION
 
-Rice, or Oryza sativa, is a husked kind of paddy grown in flooded fields in Asia's southern and eastern parts. In 2021-2022, China consumed the most rice (154.9 million metrics), followed by India (103.5 million metrics). A decrease in paddy output might result in food scarcity and disrupt the supply chain. Faster diagnosis of paddy diseases can help farmers take the necessary precautions to prevent crop loss. We worked on the paddy disease classification problem for this project and created a multiclass deep transfer learning model. This research aims to determine if the paddy leaf images provided are normal or diseased. So, we created six different models using deep learning and computer vision. Validation accuracy for CNN (base model), vgg16, densenet121, mobilenetv2, inceptionv3, and Vision Transformers was 87.5 percent, 83.10 percent, 93.1 percent, 93.7 percent, 94.1 percent, and 91.30 percent, respectively. 
+Rice, or Oryza sativa, is a husked kind of paddy grown in flooded fields in Asia's southern and eastern parts. In 2021-2022, China consumed the most rice (154.9 million metrics), followed by India (103.5 million metrics). A decrease in paddy output might result in food scarcity and disrupt the supply chain. Faster diagnosis of paddy diseases can help farmers take the necessary precautions to prevent crop loss. We worked on the paddy disease classification problem for this project and created a multiclass deep transfer learning model. This research aims to determine if the paddy leaf images provided are normal or diseased. So, we created four different models using deep learning and computer vision. Validation accuracy for CNN (base model), mobilenetv2, inceptionv3, and Vision Transformers was 87.5 percent, 83.10 percent, 93.1 percent, 93.7 percent, 94.1 percent, and 91.30 percent, respectively. 
 
 
 ## A. Comprehension Of Each Paddy Disease In The Dataset
@@ -136,20 +136,6 @@ Training Accuracy
 98.09%
 Validation Accuracy
 94.1%
-
-#### RESULT OF VGG16 MODEL
-
-Training Accuracy
-87.32%
-Validation Accuracy
-83.10%
-
-#### RESULT OF DENSENET121 MODEL
-
-Training Accuracy
-96.30%
-Validation Accuracy
-93.11%
 
 #### RESULT OF  VISION TRANSFORMERS MODEL
 
